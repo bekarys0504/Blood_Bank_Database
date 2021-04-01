@@ -1,0 +1,4 @@
+INSERT Hospital VALUES
+('RIG','Rigshospitalet','Blegdamsvej 9, 2100 København'),
+('OUH','Odense University Hospital','J. B. Winsløws Vej 4, 5000 Odense'),
+('AUH','Aarhus University Hospital','Palle Juul-Jensens Blvd. 99, 8200 Aarhus');

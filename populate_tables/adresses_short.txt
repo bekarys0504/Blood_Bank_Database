@@ -1,0 +1,1000 @@
+adresseringsvejnavn husnr, postnr postnrnavn
+Hospitalsringen 68, 5260 Odense S
+Torvestrædet 20, 3450 Allerød
+Jægergårdsgade 90A, 8000 Aarhus C
+Mejsevej 6, 8370 Hadsten
+Gårdbækvej 10, 7742 Vesløs
+Egå Marina 327, 8250 Egå
+Rørhaven 50, 2690 Karlslunde
+Hyldeblomsthaven 18, 4622 Havdrup
+Agenavej 31, 2670 Greve
+Absalonsvej 1A, 8800 Viborg
+Enghaven Havekoloni 46, 5200 Odense V
+Nordkystvejen 42C, 8961 Allingåbro
+Klynevej 34, 3730 Nexø
+Pf. Rytterhaven 34, 2730 Herlev
+Frejasvej 60, 6840 Oksbøl
+Frederiksgade 8K, 4690 Haslev
+Birkkjærvej 2, 7490 Aulum
+Brombær Alle 6, 2750 Ballerup
+Hf. C Nielsens Minde 515, 2860 Søborg
+Østerrisvej 38A, 7840 Højslev
+Kastanievej 2D, 6710 Esbjerg V
+Hs Carl Troelsens Mi 18, 8700 Horsens
+Langelandsvej 67, 6700 Esbjerg
+Borgm.Andersens Vej 53A, 6400 Sønderborg
+Snapindløkken Haveko 45, 5210 Odense NV
+Asaa Strand 15, 9340 Asaa
+Lupinkrogen 4, 3460 Birkerød
+Lupinkrogen 4, 3460 Birkerød
+Odinsparken 10, 4100 Ringsted
+Grøndalshuse 30, 3460 Birkerød
+Birkeskrænten 46, 8600 Silkeborg
+Svaneparken 59, 8464 Galten
+Taffelæblevej 6, 2500 Valby
+Taffelæblevej 6, 2500 Valby
+Taffelæblevej 6, 2500 Valby
+Taffelæblevej 6, 2500 Valby
+Taffelæblevej 6, 2500 Valby
+Taffelæblevej 6, 2500 Valby
+Taffelæblevej 6, 2500 Valby
+Taffelæblevej 6, 2500 Valby
+Stenager 17C, 6400 Sønderborg
+Gartnerbyen 2, 5200 Odense V
+Agersøvænget 6, 7000 Fredericia
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Klostergade 38, 6000 Kolding
+Sports Allé 3, 4300 Holbæk
+Ørnestens Vænge 7, 3600 Frederikssund
+Cirkelbuen 105, 3400 Hillerød
+Hvidkildevej 66, 2400 København NV
+Freyas Kvarter 26, 2670 Greve
+Turkuvej 14, 8600 Silkeborg
+Carolinelundsvej 1S, 8700 Horsens
+Stenbukken 4, 7100 Vejle
+Stejlhøjvej 53, 4400 Kalundborg
+Ny Aabyvej 2, 9440 Aabybro
+Hf. Dahlia 47, 2650 Hvidovre
+Svanekevej 44, 3740 Svaneke
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Skoleholdervej 91, 2400 København NV
+Solstien 16, 2610 Rødovre
+V. Planteners Vej 11, 2730 Herlev
+Timandsvej 25, 9560 Hadsund
+Plantagevej 11C, 3460 Birkerød
+P V Tuxens Vej 4, 5500 Middelfart
+Djævlekløften 19, 6000 Kolding
+Herningvej 56B, 7540 Haderup
+Grønnevangen 30C, 5210 Odense NV
+Lupinvej 2E, 4700 Næstved
+Lupinvej 2E, 4700 Næstved
+Skovvej 1A, 8751 Gedved
+Danmarksgade 25, 7500 Holstebro
+Øster Hessel 26, 6200 Aabenraa
+Serup Skovvej 21B, 8620 Kjellerup
+Koldingvej 18A, 7100 Vejle
+Navervej 1K, 8382 Hinnerup
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Klokkerbakken 114, 8210 Aarhus V
+Sct Knuds Alle 7M, 6740 Bramming
+Emil Ernsts Vej 112, 7442 Engesvang
+Den Røde Gårds Vej 1A, 9310 Vodskov
+Rådyrvej 82, 8722 Hedensted
+Industrivej 3A, 4340 Tølløse
+Assenholmvej 10A, 6200 Aabenraa
+Skovgårdshave 44, 3200 Helsinge
+Indkildevej 12X, 9210 Aalborg SØ
+Tranebær Alle 43, 2750 Ballerup
+Egå Marina 618, 8250 Egå
+Ved Stationen 2, 2635 Ishøj
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Lysalleen 560, 4000 Roskilde
+Golfhaven 4, 9900 Frederikshavn
+Adelgade 8B, 5800 Nyborg
+Bakkeborgtoften 13, 8600 Silkeborg
+Kronliljevej 37, 2750 Ballerup
+Junivej 9, 8700 Horsens
+Slotsstien 3A, 7000 Fredericia
+Købmagergade 25, 9500 Hobro
+Hf. Fælles Eje 148, 2860 Søborg
+Kavalerivej 13, 8930 Randers NØ
+Stetteager 1A, 4000 Roskilde
+Egå Marina 838, 8250 Egå
+Lindbjergvej 110A, 2750 Ballerup
+Hf. Fjeren 18, 8850 Bjerringbro
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Dieselvej 14, 2450 København SV
+Søkjersvej 21C, 8400 Ebeltoft
+Hegnsvej 69B, 2850 Nærum
+Egetræet 15, 2750 Ballerup
+Ludvig Andresensvej 39K, 6270 Tønder
+Bredgade 11A, 7280 Sønder Felding
+Tamrodsvej 58, 4894 Øster Ulslev
+Skt. Peders Stræde 34B, 1453 København K
+Klaruphave 66, 9270 Klarup
+Søndre Skovgyde 25B, 5370 Mesinge
+Søndre Skovgyde 25B, 5370 Mesinge
+Midtager 39, 8382 Hinnerup
+Buchwaldsvej 60, 5690 Tommerup
+Fjordmarken 5, 9440 Aabybro
+Lindebjerg Allé 7, 5560 Aarup
+Lindebjerg Allé 7, 5560 Aarup
+Lindebjerg Allé 7, 5560 Aarup
+Lindebjerg Allé 7, 5560 Aarup
+Ralphs Vænge 3, 2950 Vedbæk
+Store Skovly 84, 6400 Sønderborg
+Kolonihavevej 15, 4690 Haslev
+Hf. Energien 46, 2770 Kastrup
+Havstien 173, 6950 Ringkøbing
+Møllebakken 18A, 4581 Rørvig
+Saltumvej 9H, 9220 Aalborg Øst
+Saltumvej 9H, 9220 Aalborg Øst
+Niels Bohrs Vej 43, 9220 Aalborg Øst
+Nyborgvej 251, 5700 Svendborg
+Ny Præstøvej 319M, 4700 Næstved
+Blegbanken 3C, 7100 Vejle
+Lillelundvej 8C, 7570 Vemb
+Gyvellunden 9, 9600 Aars
+Lavendelstræde 2A, 3770 Allinge
+Rosengårdsvej 13, 3630 Jægerspris
+Vejlegadebro 1D, 4900 Nakskov
+Skelbakken 29, 9320 Hjallerup
+Indre Vordingborgvej 11G, 4700 Næstved
+Snedronningen 34, 5240 Odense NØ
+Markpibervej 6, 4700 Næstved
+Kielgade 5, 2150 Nordhavn
+Rich.Petersens Plads 324, 2800 Kongens Lyngby
+Rich.Petersens Plads 324, 2800 Kongens Lyngby
+Rich.Petersens Plads 324, 2800 Kongens Lyngby
+Rich.Petersens Plads 324, 2800 Kongens Lyngby
+Danmarksgade 23B, 6700 Esbjerg
+Hf. C Nielsens Minde 219, 2860 Søborg
+Stigsborg Parkvej 80, 9400 Nørresundby
+Østervangshaven 39, 4500 Nykøbing Sj
+Højvang 12, 6520 Toftlund
+Ved Stadion 21C, 4700 Næstved
+Kartoffelhaven 100, 5320 Agedrup
+Brobjergvej 19, 4060 Kirke Såby
+Paarupvej 9H, 5210 Odense NV
+Paarupvej 9H, 5210 Odense NV
+Tobaksgården 7D, 8700 Horsens
+Skovstjernehaven 4, 5700 Svendborg
+Dybdalsvej 4C, 9220 Aalborg Øst
+Dybdalsvej 4C, 9220 Aalborg Øst
+Dybdalsvej 4C, 9220 Aalborg Øst
+Nørregade 109, 7480 Vildbjerg
+Rosenhøj 50, 8260 Viby J
+Kåstrup Hovvej 2B, 4400 Kalundborg
+Havrevænget 23, 6000 Kolding
+Morbærhaven 3E, 2620 Albertslund
+Skovmærket 10, 8700 Horsens
+Byvej 9A, 5600 Faaborg
+Solsikkevænget 10, 5471 Søndersø
+Skodsborg Strandvej 225A, 2942 Skodsborg
+Skodsborg Strandvej 225A, 2942 Skodsborg
+Skodsborg Strandvej 225A, 2942 Skodsborg
+Skodsborg Strandvej 225A, 2942 Skodsborg
+Skodsborg Strandvej 225A, 2942 Skodsborg
+Skodsborg Strandvej 225A, 2942 Skodsborg
+Skodsborg Strandvej 225A, 2942 Skodsborg
+Malusvej 8, 4420 Regstrup
+Salamanderparken 74, 8260 Viby J
+Nørregade 62F, 7200 Grindsted
+Rørvangsvej 4V, 4300 Holbæk
+Kildeportvej 3A, 3480 Fredensborg
+Vesterbrogade 23, 1620 København V
+Rye Mølle Søvej 15, 8680 Ry
+Vestermarksvej 73, 8881 Thorsø
+Tornhøjvej 6F, 9220 Aalborg Øst
+Tornhøjvej 6F, 9220 Aalborg Øst
+Tornhøjvej 6F, 9220 Aalborg Øst
+Tornhøjvej 6F, 9220 Aalborg Øst
+Tornhøjvej 6F, 9220 Aalborg Øst
+Tornhøjvej 6F, 9220 Aalborg Øst
+Tornhøjvej 6F, 9220 Aalborg Øst
+Moselgade 36, 2300 København S
+Moselgade 36, 2300 København S
+Skovløkke 1A, 5700 Svendborg
+Ditlev Bergs Vej 2, 9000 Aalborg
+Vindegade 144C, 5000 Odense C
+Nannas Vænge 8, 8543 Hornslet
+Nannas Vænge 8, 8543 Hornslet
+Havremarken 3, 4684 Holmegaard
+Lodsvej 19B, 6720 Fanø
+Østergårdsparken 41, 8310 Tranbjerg J
+Højvænge Alle 73, 2750 Ballerup
+Klostervej 37, 3400 Hillerød
+Klostervej 37, 3400 Hillerød
+Ramtenvej 14C, 8581 Nimtofte
+Kildebjerg Skovvej 42, 8680 Ry
+Skinnestræde 17, 2640 Hedehusene
+Nikkelsbækvej 46, 4780 Stege
+Ved Åen 5, 2740 Skovlunde
+Solvænget 10, 6091 Bjert
+Nørregade 49L, 9870 Sindal
+Elsdyrvej 36, 8700 Horsens
+Strømmen 26, 6000 Kolding
+Kirkeager 5, 7130 Juelsminde
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+C.F. Richs Vej 105C, 2000 Frederiksberg
+Østergade 134, 6900 Skjern
+Idrætsalle 59B, 9370 Hals
+Peder Oxes Alle 2, 3400 Hillerød
+Grønhøjgårdsvej 239, 2630 Taastrup
+Munkeparken 3, 6000 Kolding
+Caroline Mathilde St 55, 2950 Vedbæk
+Frydenlund 1M, 7120 Vejle Øst
+Golfhøjen 11A, 8400 Ebeltoft
+Egsmarkgårdvej 2, 8400 Ebeltoft
+Lyngvej 56A, 4600 Køge
+Hanstholmvej 40A, 7700 Thisted
+Hf. Bergmannshave 26, 2450 København SV
+Vænget 32, 4100 Ringsted
+Vasen 19, 8920 Randers NV
+Egå Marina 363, 8250 Egå
+Mejsevej 2, 8370 Hadsten
+Langebro 38, 6200 Aabenraa
+Ternevej 2E, 6920 Videbæk
+Flegebakken 41, 8370 Hadsten
+Djævlekløften 17, 6000 Kolding
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Richard Mortensens V 71, 2300 København S
+Laskedalen 78, 8220 Brabrand
+Alrøvænget 19, 6000 Kolding
+Karlslunde Parkvej 26, 2690 Karlslunde
+Hf. Grindsted 16, 7200 Grindsted
+Friggsvej 33, 8723 Løsning
+Højskolevej 1F, 9440 Aabybro
+Møllemoseparken 88, 3450 Allerød
+Gustav Zimmersvej 64G, 9430 Vadum
+Søbakken 7, 4573 Højby
+Gunnars Ager 13, 6000 Kolding
+Hospitalsringen 45, 5230 Odense M
+Springbjerg 54, 6000 Kolding
+Hf. Helgetoften 58, 5800 Nyborg
+Vandmandens Kvarter 35, 6710 Esbjerg V
+Øksen 1, 8920 Randers NV
+Løbegangen 19, 5800 Nyborg
+Rosenvænget 29, 8541 Skødstrup
+Tornerosevej 54, 8870 Langå
+Kolonihavevej 15, 7330 Brande
+Kløvermarksvej 58, 2300 København S
+Øerkrogvejen 13, 8400 Ebeltoft
+Romervej 11, 8600 Silkeborg
+Lærkevænget 22, 4581 Rørvig
+Hf. Kettehøj 125, 2650 Hvidovre
+Hf. Vestgrænsen 157, 2770 Kastrup
+Åhaven 8, 6800 Varde
+Nygårdsvej 36, 2100 København Ø
+Islev Have 89, 2610 Rødovre
+Uglevej 5B, 6950 Ringkøbing
+Lagergade 15, 1799 København V
+Fynsvej 13A, 4060 Kirke Såby
+Østparken 52, 7830 Vinderup
+Alrøvænget 62A, 6000 Kolding
+Sønder Tranders Vej 11C, 9210 Aalborg SØ
+Gammel Strandvej 195D, 3060 Espergærde
+Strandager 21, 9300 Sæby
+Ravnehusvej 45A, 3500 Værløse
+Smallesund 82R, 3700 Rønne
+Åvangsvej 2A, 4500 Nykøbing Sj
+Bjergtoften 60, 6780 Skærbæk
+Skolevænge 6C, 6760 Ribe
+Sandenvej 38, 9300 Sæby
+Nicolinevej 38, 4600 Køge
+Kysthaven 30, 7130 Juelsminde
+Rørhaven 30, 2690 Karlslunde
+Hs Carl Troelsens Mi 21, 8700 Horsens
+Vessøvej 11B, 8680 Ry
+Flintevænget 4, 8700 Horsens
+Visbjergvej 8, 4230 Skælskør
+Sandkrogen 1G, 7840 Højslev
+Tjørne Alle 12D, 4200 Slagelse
+Teglvænget 14, 6000 Kolding
+Paradis Allé 10, 2635 Ishøj
+Rådyret 231, 9530 Støvring
+M W Gjøes Vej 24, 2640 Hedehusene
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tuborg Bakkedrag 20, 2900 Hellerup
+Tronkærgårdsvej 62, 8541 Skødstrup
+Fjenneslevmaglevej 3B, 4173 Fjenneslev
+Plantagevej 7A, 3460 Birkerød
+Brejning Søndergade 5A, 7080 Børkop
+Borggårdsvej 71, 7080 Børkop
+Dalsgårdsvej 1, 8963 Auning
+Nipsvej 4M, 6760 Ribe
+Kullekærvej 2H, 4760 Vordingborg
+Blåbærstien 1, 3460 Birkerød
+Vingårdsgade 6, 9000 Aalborg
+Hyrupvej 4A, 6541 Bevtoft
+Tvedvej 90, 6000 Kolding
+Storemosevej 14, 9310 Vodskov
+Hasle Hytteby 33, 3790 Hasle
+Kvaglundparken 121, 6705 Esbjerg Ø
+Rypelyngen 15, 8700 Horsens
+Nellikevej 25, 5610 Assens
+Stensmosevej 24M, 2620 Albertslund
+Stensmosevej 24M, 2620 Albertslund
+Stensmosevej 24M, 2620 Albertslund
+Højbygårdvej 20F, 4970 Rødby
+Amtmandshave 82, 3400 Hillerød
+Åsvinget 32, 9981 Jerup
+Tilst Parkvej 161, 8381 Tilst
+Jeppe Aakjærs Allé 21T, 5210 Odense NV
+Stationsvej 45, 3210 Vejby
+Sønderbyvej 16G, 6091 Bjert
+Kongelysvej 64, 2640 Hedehusene
+Lysningen 21, 4200 Slagelse
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Else Alfelts Vej 19, 2300 København S
+Ny Solskovvej 9, 7100 Vejle
+Østergårdsvej 202D, 8340 Malling
+Lundagervej 25I, 8722 Hedensted
+Søndergårdsparken 1, 6971 Spjald
+Søndergårdsparken 1, 6971 Spjald
+Langhus 6, 6200 Aabenraa
+Holdgårdsparken 29, 7260 Sønder Omme
+Møllegårdens Haver 49, 5300 Kerteminde
+Samsøgade 85, 9000 Aalborg
+Møgelvang 1, 8800 Viborg
+Paradisgade 1H, 8000 Aarhus C
+Kirkestræde 5, 5960 Marstal
+Kollegievej 2F, 9000 Aalborg
+Nørre Farimagsgade 2F, 1364 København K
+Jølbygårdsvej 3B, 7950 Erslev
+Gammel Vejlevej 47, 7200 Grindsted
+Engvej 2C, 7160 Tørring
+Løvlundvej 4B, 7190 Billund
+Tagetesvej 18, 2610 Rødovre
+Plateauet 42, 9000 Aalborg
+Gartnervej 36B, 9200 Aalborg SV
+Skovhaverne 15, 7800 Skive
+Vængedalen 102, 2600 Glostrup
+Vængedalen 102, 2600 Glostrup
+Vængedalen 102, 2600 Glostrup
+Erhvervsparken 15, 8500 Grenaa
+Hyldebærstien 18, 2610 Rødovre
+Katholtvej 69, 8600 Silkeborg
+Overmarken 142, 7000 Fredericia
+Biskorup Havekoloni 42, 5240 Odense NØ
+Gersager Alle 1B, 2670 Greve
+Strandvænget 14, 8300 Odder
+Peter Bangs Vej 9A, 2000 Frederiksberg
+Peter Bangs Vej 9A, 2000 Frederiksberg
+Peter Bangs Vej 9A, 2000 Frederiksberg
+Peter Bangs Vej 9A, 2000 Frederiksberg
+Peter Bangs Vej 9A, 2000 Frederiksberg
+Peter Bangs Vej 9A, 2000 Frederiksberg
+Peter Bangs Vej 9A, 2000 Frederiksberg
+Jordbærvangen 21, 8920 Randers NV
+Hvidemøllevej 41E, 8920 Randers NV
+Chilivej 19, 7700 Thisted
+Oluf Gades Minde 34, 7700 Thisted
+Stationsvej 1B, 9670 Løgstør
+Hf. Kettehøj 85, 2650 Hvidovre
+Vimmerbyvej 149, 8600 Silkeborg
+Norhaverne 16, 4220 Korsør
+Østre Parkvej 1E, 4100 Ringsted
+Kildeagervej 206, 8361 Hasselager
+Tjennemarkevej 24A, 4952 Stokkemarke
+Rundholtsvej 43, 2300 København S
+Hallas Alle 113F, 4400 Kalundborg
+Aspvej 28B, 7600 Struer
+Guldbergs Plads 11, 2200 København N
+Torngårdsallé 6, 9440 Aabybro
+Hesteskoen 4, 9480 Løkken
+Vestergade 91, 6270 Tønder
+Vestergade 91, 6270 Tønder
+Egemosevej 4B, 4640 Faxe
+Kragelund Møllevej 1G, 8600 Silkeborg
+Vibelund Havekoloni 135, 5200 Odense V
+Ydergrænsen 57, 2600 Glostrup
+Plantagevej 11A, 3460 Birkerød
+Rådhusvej 4C, 4550 Asnæs
+Agertoften 34, 3660 Stenløse
+Fuglekongegangen 1, 2300 København S
+Skovbakken 12, 3210 Vejby
+Snapindvej 5T, 5200 Odense V
+Solsikkevej 58, 6270 Tønder
+Ålevej 13, 9300 Sæby
+Fåreager 25, 2680 Solrød Strand
+Elmevej 11, 9632 Møldrup
+Vestergade 2B, 9850 Hirtshals
+Magnesvej 66, 7100 Vejle
+Nylandsvej 17, 6400 Sønderborg
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Nyborgvej 305A, 5220 Odense SØ
+Svalestien 14, 2750 Ballerup
+Auroravej 10A, 2610 Rødovre
+Auroravej 10A, 2610 Rødovre
+Rundgangen 65, 3700 Rønne
+Stenparken 45, 6500 Vojens
+Pakkerivej 5, 2500 Valby
+Murerstrædet 3, 4640 Faxe
+Franciska Clausen Pl 9, 1799 København V
+Stensbjerghøj 45, 3550 Slangerup
+Birkholm 10, 5965 Birkholm
+Søndergade 99E, 5620 Glamsbjerg
+Smallesund 82T, 3700 Rønne
+Hf. Voldly 108, 2860 Søborg
+Hf. Grindsted 37, 7200 Grindsted
+Tibirkevej 5D, 3220 Tisvildeleje
+Tolskovvej 18C, 4330 Hvalsø
+Hf. Lundtoftehaverne 4, 2800 Kongens Lyngby
+Rolf Krakes Vej 9, 6400 Sønderborg
+Albusvej 14, 3650 Ølstykke
+Albusvej 14, 3650 Ølstykke
+Albusvej 14, 3650 Ølstykke
+Møllehavestien 47, 3300 Frederiksværk
+Brovej 129, 2800 Kongens Lyngby
+Langagergård 107, 8700 Horsens
+Feddet 12, 7330 Brande
+Plantagevej 25, 2610 Rødovre
+Ryparken 86F, 2100 København Ø
+Grønvej 2B, 8300 Odder
+Dværgpilen 32, 8700 Horsens
+Ikarosvej 7, 9210 Aalborg SØ
+Ikarosvej 7, 9210 Aalborg SØ
+Hf. Svarø 53, 2650 Hvidovre
+Fisketorvet 17, 5000 Odense C
+Fjordstien 117, 6950 Ringkøbing
+Fasanvej 52, 9700 Brønderslev
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Kværnloftet 4, 8240 Risskov
+Maglebytorv 26, 2791 Dragør
+Kolt Østerparken 152, 8361 Hasselager
+Asmild Mark 100, 8800 Viborg
+Ørhagevej 154M, 7700 Thisted
+Sejlhusene 15, 7600 Struer
+Møllegade 40P, 7430 Ikast
+Lyngbakken 41, 7700 Thisted
+Møllebækken 5, 8370 Hadsten
+Kastrupvej 34A, 4300 Holbæk
+Børkop Huse 57, 7080 Børkop
+Bispevej 25A, 2400 København NV
+Bispevej 25A, 2400 København NV
+Bispevej 25A, 2400 København NV
+Bispevej 25A, 2400 København NV
+Bispevej 25A, 2400 København NV
+Bispevej 25A, 2400 København NV
+Bispevej 25A, 2400 København NV
+Valdemars Have 18, 8000 Aarhus C
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Ternevej 66C, 8700 Horsens
+Havelund 27, 5700 Svendborg
+Wilsonsgade 25, 5800 Nyborg
+Store Skovly 93, 6400 Sønderborg
+Dalbergsgade 2C, 8800 Viborg
+Garverland 10B, 6372 Bylderup-Bov
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Ceresbyen 18, 8000 Aarhus C
+Strandvejen 15B, 7800 Skive
+Strandvejen 15B, 7800 Skive
+Lystbådehavnen 198, 8700 Horsens
+Stamholmen 111U, 2650 Hvidovre
+Stamholmen 111U, 2650 Hvidovre
+Ved Amagerbanen 35H, 2300 København S
+Ved Amagerbanen 35H, 2300 København S
+Grundtvigs Alle 181, 6400 Sønderborg
+Grundtvigs Alle 181, 6400 Sønderborg
+Ørskovbæk Parken 11, 8732 Hovedgård
+Remmerslund Kær 12, 8722 Hedensted
+Steensager 33, 5800 Nyborg
+Møddebro Parkvej 33, 8355 Solbjerg
+Eskerodvej 26F, 8543 Hornslet
+Hasselhaven 22, 7080 Børkop
+Aaensvej 25, 9981 Jerup
+V. Planteners Vej 15, 2730 Herlev
+Dominovej 32, 7500 Holstebro
+Dominovej 32, 7500 Holstebro
+Dominovej 32, 7500 Holstebro
+Dominovej 32, 7500 Holstebro
+Dominovej 32, 7500 Holstebro
+Dominovej 32, 7500 Holstebro
+Himmelev Skovvej 75, 4000 Roskilde
+Statenevej 12D, 3450 Allerød
+Møddebro Parkvej 127, 8355 Solbjerg
+Vibelund Havekoloni 154, 5200 Odense V
+Solstien 7, 2610 Rødovre
+Brombærvej 21D, 6100 Haderslev
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Duftrankevej 151, 5200 Odense V
+Mette Thomsens Vej 5, 6000 Kolding
+Nedergade 14B, 5000 Odense C
+Propellen 38, 9430 Vadum
+Havef. Skovly 31, 6200 Aabenraa
+Nellikerod 12, 4900 Nakskov
+Ryttervænget 11, 6520 Toftlund
+Dværgpilen 1, 8700 Horsens
+Søndre Ringvej 46B, 9500 Hobro
+Skamlingsbakken 12, 6093 Sjølund
+Marinus Johansensvej 8, 9690 Fjerritslev
+Kaløvig Bådehavn 163, 8541 Skødstrup
+Agertoften 1, 3660 Stenløse
+Hf. Solvang 12, 8800 Viborg
+Torupvej 67, 5485 Skamby
+Græskargangen 80, 3700 Rønne
+Hørparken 8, 6000 Kolding
+Bygholmvejlevej 417, 9690 Fjerritslev
+Koralvej 24, 9370 Hals
+Gammel Østergårdsvej 53B, 8340 Malling
+Kaare Klints Vej 6A, 4690 Haslev
+Agger Havn Feriecent 95, 7770 Vestervig
+Enebærvej 4G, 4560 Vig
+Anemonevej 33, 4900 Nakskov
+Hellekisten 4B, 9230 Svenstrup J
+Irisvej 40, 4100 Ringsted
+Troldmands Allé 101A, 2680 Solrød Strand
+Hviddingvej 38B, 8830 Tjele
+Ved Sportspladsen 8D, 2610 Rødovre
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Lindgreens Allé 10S, 2300 København S
+Havepladsvej 142B, 7000 Fredericia
+Havepladsvej 142B, 7000 Fredericia
+Havepladsvej 142B, 7000 Fredericia
+Stenagerbakken 5, 8382 Hinnerup
+Brovangsvej 146, 3140 Ålsgårde
+Kaløvig Bådehavn 955, 8541 Skødstrup
+Hilmar Baunsgaards B 38, 2300 København S
+Haveselskab Af 1916 58, 8700 Horsens
+Rind Plantagevej 1K, 7400 Herning
+Herningsholm Alle 32, 7400 Herning
+Teglhaven 25, 3450 Allerød
+Kildeagertoften 44, 8361 Hasselager
+Søndre Strandvej 65Y, 3000 Helsingør
+Nielsine Nielsens V. 9, 2400 København NV
+Østergade 50, 9700 Brønderslev
+Krokusvej 13, 2750 Ballerup
+Damgade 18E, 6430 Nordborg
+Eskelund Allé 114, 7430 Ikast
+Kildegade 4C, 9240 Nibe
+Søndergårds Haver 158, 5220 Odense SØ
+Hf. 4. Juli 133, 2880 Bagsværd
+Vognmandsmarken 69, 2100 København Ø
+Fåreengen 12, 2765 Smørum
+Laurbærvænget 6, 3400 Hillerød
+Islandsvej 25N, 7700 Thisted
+Østerbrogade 14A, 7500 Holstebro
+Krogsbjergvej 501, 5900 Rudkøbing
+Tornhøjgård 21, 9220 Aalborg Øst
+Hedelunden 23G, 2670 Greve
+Frejas Ager 14, 6000 Kolding
+Lille Voldgade 11F, 8900 Randers C
+Nørgårdsvej 9, 7752 Snedsted
+Kollerup Strandvej 44, 9690 Fjerritslev
+Højlundsvej 24, 9690 Fjerritslev
+Købmagergade 23A, 7000 Fredericia
+Jørgen Glavinds Vej 2H, 7200 Grindsted
+Vestergårds Alle 69, 8362 Hørning
+Fælleskær 67, 8500 Grenaa
+Psyak 33G, 1440 København K
+Psyak 33G, 1440 København K
+Sortspættegangen 18, 2700 Brønshøj
+Oldager Allé 68, 6900 Skjern
+Korsagervej 27, 8382 Hinnerup
+Sigsgårdsvej 5, 8960 Randers SØ
+Ny Taastrupvej 2D, 4300 Holbæk
+Degnejorden 23, 4320 Lejre
+Vendelbogade 2, 9870 Sindal
+Gultentorpvej 107D, 9230 Svenstrup J
+Kolonihavelykkesholm 15, 5854 Gislev
+Eskilsøvej 16, 3630 Jægerspris
+Langfredparken 59, 8471 Sabro
+Elsdyrvej 66, 8700 Horsens
+Remisevej 130, 6700 Esbjerg
+Tirsbæk Søvej 29, 7120 Vejle Øst
+Østerbyvej 2B, 8632 Lemming
+Nibevej 535, 9240 Nibe
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Gammel Køge Landevej 22Z, 2500 Valby
+Spætmejsevej 8C, 6500 Vojens
+Udsigten 6, 8382 Hinnerup
+Hindbær Alle 2, 2750 Ballerup
+Mølleparkvej 4E, 9000 Aalborg
+Præstestræde 15B, 4873 Væggerløse
+Skolevej 10, 7190 Billund
+Avnbøgvej 17, 4873 Væggerløse
+Tapperitorvet 20, 1799 København V
+Solbærvænget 17, 4100 Ringsted
+Tuborgvej 172B, 2400 København NV
+Stadens Vænge 19, 2100 København Ø
+Nellikebakken 3, 8930 Randers NØ
+Valborgs Vænge 52, 8700 Horsens
+Kirkevangen 47, 3480 Fredensborg
+Slotsgade 3E, 4200 Slagelse
+Frederiks Torv 1G, 7700 Thisted
+Kirkestien 52A, 2630 Taastrup
+Sejstrupvej 7A, 7840 Højslev
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Kobbelvænget 21, 7100 Vejle
+Ledøjevej 1A, 2620 Albertslund
+Kolonihave Fruerlund 24, 5750 Ringe
+Fresiahaven 36, 7400 Herning
+Lillemark 3C, 4990 Sakskøbing
+Hf. Samvirke 29, 2860 Søborg
+Kildestrædet 1, 2740 Skovlunde
+Hf. Fælles Eje 57, 2860 Søborg
+Hornelandevej 98D, 5600 Faaborg
+Lundevej 149, 9240 Nibe
+Egeskovvej 15, 3490 Kvistgård
+Vejlevej 177, 7323 Give
+Dalgas Avenue 52D, 8000 Aarhus C
+Ådalsparken 12, 8462 Harlev J
+H. H. Hansens Vej 2, 8400 Ebeltoft
+Lupinvænget 44, 2750 Ballerup
+Bækkeblink 6, 7800 Skive
+Honningvænget 102, 8381 Tilst
+Spinderigade 18D, 7100 Vejle
+Bækkelundsvej 41, 8240 Risskov
+Lindgreens Allé 6B, 2300 København S
+Hf. Elefanthøjen 49, 5800 Nyborg
+Morbærhaven 75E, 2620 Albertslund
+Støberivej 3, 9480 Løkken
+Sneppevej 35, 4700 Næstved
+Dyremosen 30, 3320 Skævinge
+Landehjælpvej 17S, 2300 København S
+Havrevej 24, 2970 Hørsholm
+Grusgyden 55A, 5450 Otterup
+Odinsvej 27K, 9870 Sindal
+Strandlodsvej 27, 2300 København S
+Næsby Haveforening 1, 5270 Odense N
+Høegh Guldbergs Gade 15D, 8700 Horsens
+Ole Lund Kirkegaa. A 31, 8200 Aarhus N
+Dr Louisesvej 50, 7800 Skive
+Hf. Helgetoften 55, 5800 Nyborg
+Knøsgårdvej 106, 9440 Aabybro
+Kærgårdsvej 28B, 6800 Varde
+Slangerupgade 42F, 3400 Hillerød
+Elmebjergvej 17F, 4180 Sorø
+Bågø Havekoloni 133, 5000 Odense C
+Guldmajsvej 30, 9990 Skagen
+Cypressen 109, 2635 Ishøj
+Kærhaven 48, 6800 Varde
+Mejlstedvej 55, 9380 Vestbjerg
+Dalhaven 32, 3660 Stenløse
+Hf. Dahlia 101, 2650 Hvidovre
+Skaarupsundvænget 2, 5700 Svendborg
+Alberts Have 29, 2620 Albertslund
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Ørestads Boulevard 46B, 2300 København S
+Krekærvangen 20, 8340 Malling
+Nørretorv 15B, 8700 Horsens
+Nørretorv 15B, 8700 Horsens

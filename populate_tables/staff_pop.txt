@@ -1,0 +1,16 @@
+INSERT Staff VALUES
+('141166-5233','Alfred Casey','Doctor','2001-05-15','AUH'),
+('041068-8072','Gianna Walker','Doctor','2002-02-09','RIG'),
+('240885-3399','Marcus Ross','Doctor','2017-01-23','RIG'),
+('251289-9294','Penelope Hunt','Nurse','2019-02-10','RIG'),
+('130690-4656','Deanna West','Doctor','2018-06-06','AUH'),
+('271078-7984','Alissa Crawford','Doctor','2018-07-17','OUH'),
+('110461-4475','Carl Hawkins','Doctor','1998-09-29','RIG'),
+('091156-6085','Alfred Reed','Nurse','2013-05-14','RIG'),
+('040587-5134','Valeria Murphy','Doctor','2011-02-04','AUH'),
+('270553-4565','Richard Murphy','Nurse','1984-09-11','AUH'),
+('110553-7193','Maximilian Morgan','Doctor','1992-07-25','RIG'),
+('170668-8093','Michael Kelly','Doctor','2014-01-31','RIG'),
+('291284-5851','George Allen','Nurse','2008-05-20','OUH'),
+('040286-5609','Blake Johnson','Doctor','2011-10-05','RIG'),
+('280579-3214','Belinda Baker','Nurse','2012-08-17','RIG');
