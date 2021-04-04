@@ -23,10 +23,9 @@ CREATE TABLE Hospital
 	);
 
 CREATE TABLE Compatibility
-	(BloodType		ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
-	 CanGive		VARCHAR(5),
-	 CanReceive		VARCHAR(5),
-	 PRIMARY KEY(BloodType)
+	(DonorBloodType		ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
+	 ReceiverBloodType	ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
+	 PRIMARY KEY(DonorBloodType, ReceiverBloodType)
 	);
     
 CREATE TABLE Donor
@@ -37,7 +36,7 @@ CREATE TABLE Donor
      lastDonation   DATE,
 	 PRIMARY KEY(DonorID),
      FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE SET NULL,
-     FOREIGN KEY(BloodType) REFERENCES Compatibility(BloodType) ON DELETE CASCADE
+     FOREIGN KEY(BloodType) REFERENCES Compatibility(DonorBloodType) ON DELETE CASCADE
 	);
 
 CREATE TABLE Patient
@@ -47,20 +46,33 @@ CREATE TABLE Patient
 	 BloodType				ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+') NOT NULL,
 	 HospitalID				VARCHAR(10),
 	 PRIMARY KEY(PatientID),
-     FOREIGN KEY(BloodType) REFERENCES Compatibility(BloodType) ON DELETE CASCADE,
-	 FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE SET NULL
+	 FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE SET NULL,
+     FOREIGN KEY(BloodType) REFERENCES Compatibility(DonorBloodType) ON DELETE CASCADE
+	);
+
+CREATE TABLE StaffMember
+	(StaffID		VARCHAR(11), 
+     StaffName		VARCHAR(20) NOT NULL,
+	 Position		VARCHAR(20) NOT NULL,
+	 HiringDate		DATE NOT NULL,
+	 HospitalID		VARCHAR(10),
+	 PRIMARY KEY(StaffID),
+	 FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE CASCADE
 	);
 
 CREATE TABLE Donation
 	(DonationID		VARCHAR(20), 
      DonorID		VARCHAR(11) NOT NULL,
 	 HospitalID		VARCHAR(10),
+     StaffID		VARCHAR(11) NOT NULL,
 	 Amount  		DECIMAL(4,1) NOT NULL, 
 	 DonationDate	DATE NOT NULL,
      MedicalCheck   ENUM('Pass','Fail','Not Processed') NOT NULL,
+     BeenUsed		BOOLEAN,
 	 PRIMARY KEY(DonationID),
      FOREIGN KEY(DonorID) REFERENCES Donor(DonorID) ON DELETE NO ACTION,
-     FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE SET NULL
+     FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE SET NULL,
+     FOREIGN KEY(StaffID) REFERENCES StaffMember(StaffID) ON DELETE NO ACTION
 	);
 
 CREATE TABLE MedicalRecord
@@ -73,24 +85,13 @@ CREATE TABLE MedicalRecord
 	);
 
 CREATE TABLE BloodTranfusion
-	(BloodTranfusionID
-    DonationID		VARCHAR(11), 
+	(DonationID		VARCHAR(11), 
      CaseNumber		VARCHAR(11), 
 	 TranfusionDate	DATE NOT NULL,
 	 Amount  		DECIMAL(4,1) NOT NULL, 
 	 PRIMARY KEY(DonationID, CaseNumber),
      FOREIGN KEY(DonationID) REFERENCES Donation(DonationID) ON DELETE no action,
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE no action
-	);
-
-CREATE TABLE StaffMember
-	(StaffID		VARCHAR(11), 
-     StaffName		VARCHAR(20) NOT NULL,
-	 Position		VARCHAR(20) NOT NULL,
-	 HiringDate		DATE NOT NULL,
-	 HospitalID		VARCHAR(10),
-	 PRIMARY KEY(StaffID),
-	 FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE CASCADE
 	);
 
 CREATE TABLE Assignment
