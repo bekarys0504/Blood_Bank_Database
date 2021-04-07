@@ -102,3 +102,45 @@ CREATE TABLE Assignment
      FOREIGN KEY(StaffID) REFERENCES StaffMember(StaffID) ON DELETE CASCADE,
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE CASCADE
 	);
+    
+    /* I have not actually tested my functions.. I had a really hard time making the insert from the python scripth work */
+	delimiter //
+    create function lastDonation(vDonorId VARCHAR(20)) returns bool
+    begin
+    Declare vDaysSinceLastDonation INT;
+    Declare vfourthOfAYear
+    select donationDate from donation as vLastDonation
+    where donorId = vDonerId
+    select GETDATE() as vToday;
+    select datediff(day, vLastDonation, vToday) into vDaysSinceLastDonation;
+    if 
+    vDaysSinceLastDonation < vfourthOfAYear;
+    then 
+    return true;
+    else
+    return false;
+	end
+    delimiter ;
+
+	delimiter //
+    create function isDonationDeleteable(vDonationID varchar(20)) returns bool
+    begin
+    declare vIsInvalid enum('Pass','Fail','Not Processed');
+    declare vToday date;
+	declare vIsUsed bool;
+    declare vDonationAge int;
+    select GETDATE() as vToday;
+    select BeenUsed into IsUsed from donation where donationID = vDonationID;
+    select DonationDate as vDonationDate from donation where donationID = vDonationID;
+    select MedicalCheck into vIsInvalid from donation where donation = vDonationID;
+    SET vDonationAge = datediff(day, vDonationDate, vToday);
+    if 
+    vDonationAge < 60 or vIsUsed = true or vIsInvalied = 'Fail' 
+    then
+    return true;
+    else 
+    return false;
+    end
+    delimiter ;
+    
+    
