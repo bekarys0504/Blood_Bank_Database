@@ -42,6 +42,8 @@ def list_to_SQL_list(list, outfilename, SQL_table_name):
         for item in row:
             if isinstance(item, str):
                 item = stringify(item)
+            elif isinstance(item, datetime.date):
+                item = item.strftime("\'%Y-%m-%d\'")
             string2 += str(item) + ","
 
         string += string2[:-1] + "),\n"
@@ -177,7 +179,7 @@ for _ in range(n_donations):
     dono_date_str = dono_date.strftime("%d/%m/%Y")
 
     # generate donationID
-    dono_id = "{}_{}_{:03d}".format(hos_id[1:-1], dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
+    dono_id = "{}_{}_{:03d}".format(hos_id, dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
     while dono_id in used_dono_ids:
         dono_id = "{}_{}_{:03d}".format(hos_id, dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
     used_dono_ids.append(dono_id)
@@ -197,7 +199,7 @@ for _ in range(n_donations):
     else:
         medical_check = "Pass"
 
-    been_used = "Unused"
+    been_used = False
 
     row = [dono_id, donor_cpr, hos_id, dono_staff_id, amount, dono_date, medical_check, been_used]
     dono_list.append(row)
@@ -267,13 +269,12 @@ for patient in patient_list:
 
     # populate
     if (diagnosis == "Anemia" or diagnosis == "Acute blood loss") and status != "Acute":
-        print("looking for transfusion")
         for dono in dono_list:
 
             if dono[6] == "Failed":
                 continue
 
-            if dono[-1] == "Used":
+            if dono[-1]:
                 continue
 
             blood_match = False
@@ -301,11 +302,9 @@ for patient in patient_list:
 
                 for i, dono in enumerate(dono_list):
                     if dono[0] == trans_dono_id:
-                        dono_list[i][-1] = "Used"
+                        dono_list[i][-1] = True
                         break
             break
-        else:
-            print("no trans found")
 
 list_to_SQL_list(hospitals, hospital_file, "Hospital")
 list_to_SQL_list(donor_list, donor_file, "Donor")
