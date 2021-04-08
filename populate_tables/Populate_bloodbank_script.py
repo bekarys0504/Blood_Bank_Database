@@ -90,7 +90,7 @@ for _ in range(n_donors):
     hos_id = random.choice(hospitals)[0]
     blood_type = random.choice(bloodtypes)
 
-    last_donation = "No donations yet."
+    last_donation = "NULL"
 
     row = [cpr, name, hos_id, blood_type, last_donation]
     donor_list.append(row)
@@ -120,7 +120,7 @@ for _ in range(n_patients):
 
     patient_address = adresses.pop()
 
-    row = [cpr, name, hos_id, blood_type, patient_address]
+    row = [cpr, name, patient_address, blood_type, hos_id]
     patient_list.append(row)
 
 list_to_SQL_list(patient_list, patient_file, "Patient")
@@ -170,7 +170,8 @@ for _ in range(n_donations):
     # generate donation date
     start_date = datetime.date(2021, 1, 1)
     end_date = datetime.date(2021, 4, 1)
-    dono_date = rand_date(start_date, end_date).strftime("%d/%m/%Y")
+    dono_date = rand_date(start_date, end_date)
+    dono_date_str = dono_date.strftime("%d/%m/%Y")
 
     # generate donationID
     dono_id = "{}_{}_{:03d}".format(hos_id, dono_date[0:2]+dono_date[3:5]+dono_date[6:10], random.randint(1,999))
@@ -184,7 +185,7 @@ for _ in range(n_donations):
         dono_staff = random.choice(staff_list)
     dono_staff_id = dono_staff[0]
 
-    amount = "500 ml"
+    amount = 500
 
     # Perform medical check
     fail_chance = random.random()
@@ -256,8 +257,7 @@ for patient in patient_list:
         # generate assignment date
         start_date = datetime.date(2021, 1, 1)
         end_date = datetime.date(2021, 4, 1)
-        ass_date_datetime = rand_date(start_date, end_date)
-        ass_date = ass_date_datetime.strftime("%d/%m/%Y")
+        ass_date = rand_date(start_date, end_date)
 
         assignment.append([ass_staff[0], case_number, ass_date])
 
@@ -286,12 +286,12 @@ for patient in patient_list:
             dono_date = datetime.date(int(dono[5][6:]), int(dono[5][3:5]), int(dono[5][0:2]))
             dono_exp_date = dono_date + datetime.timedelta(days=42)
 
-            if dono_exp_date < ass_date_datetime:
+            if dono_exp_date < ass_date:
                 continue
             else:
-                trans_date = rand_date(max(dono_date, ass_date_datetime), min(dono_exp_date, datetime.date(2021, 4, 1)))
+                trans_date = rand_date(max(dono_date, ass_date), min(dono_exp_date, datetime.date(2021, 4, 1)))
 
-                amount = "500 ml"
+                amount = 500
 
                 bloodtransfusions.append([trans_dono_id, case_number, trans_date, amount])
 
