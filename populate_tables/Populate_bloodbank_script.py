@@ -174,9 +174,9 @@ for _ in range(n_donations):
     dono_date_str = dono_date.strftime("%d/%m/%Y")
 
     # generate donationID
-    dono_id = "{}_{}_{:03d}".format(hos_id, dono_date[0:2]+dono_date[3:5]+dono_date[6:10], random.randint(1,999))
+    dono_id = "{}_{}_{:03d}".format(hos_id, dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
     while dono_id in used_dono_ids:
-        dono_id = "{}_{}_{:03d}".format(hos_id, dono_date[0:2]+dono_date[3:5]+dono_date[6:10], random.randint(1,999))
+        dono_id = "{}_{}_{:03d}".format(hos_id, dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
     used_dono_ids.append(dono_id)
 
     dono_staff = random.choice(staff_list)
@@ -283,7 +283,7 @@ for patient in patient_list:
 
             trans_dono_id = dono[0]
 
-            dono_date = datetime.date(int(dono[5][6:]), int(dono[5][3:5]), int(dono[5][0:2]))
+            dono_date = dono[5]
             dono_exp_date = dono_date + datetime.timedelta(days=42)
 
             if dono_exp_date < ass_date:
