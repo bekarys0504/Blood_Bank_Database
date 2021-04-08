@@ -195,7 +195,7 @@ for _ in range(n_donations):
     # Perform medical check
     fail_chance = random.random()
     if fail_chance <= 0.05:
-        medical_check = "Failed"
+        medical_check = "Fail"
     else:
         medical_check = "Pass"
 
@@ -242,7 +242,7 @@ for patient in patient_list:
 
     status = random.choice(status_options)
 
-    med_records.append([patient_id, case_number, diagnosis, status])
+    med_records.append([case_number, patient_id, diagnosis, status])
 
     ## populate assignments
     if random.random() < 0.3:
@@ -314,7 +314,7 @@ for donor, reciever in blood_type_recieve_dict.items():
 list_to_SQL_list(hospitals, hospital_file, "Hospital")
 list_to_SQL_list(donor_list, donor_file, "Donor")
 list_to_SQL_list(patient_list, patient_file, "Patient")
-list_to_SQL_list(staff_list, staff_file, "Staff")
+list_to_SQL_list(staff_list, staff_file, "StaffMember")
 list_to_SQL_list(dono_list, donation_file, "Donation")
 list_to_SQL_list(med_records, med_record_file, "MedicalRecord")
 list_to_SQL_list(assignment, assignment_file, "Assignment")

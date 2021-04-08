@@ -1,4 +1,4 @@
-INSERT Staff VALUES
+INSERT StaffMember VALUES
 ('200176-7877','Maximilian Morgan','Nurse','2000-10-18','OUH'),
 ('301263-4269','Michael Kelly','Doctor','2008-05-30','AUH'),
 ('191288-4639','George Allen','Doctor','2017-02-13','AUH'),
