@@ -40,7 +40,9 @@ def list_to_SQL_list(list, outfilename, SQL_table_name):
         string2 = "("
 
         for item in row:
-            string2 += "\'" + str(item) + "\',"
+            if isinstance(item, str):
+                item = stringify(item)
+            string2 += str(item) + ","
 
         string += string2[:-1] + "),\n"
 
@@ -51,6 +53,10 @@ def list_to_SQL_list(list, outfilename, SQL_table_name):
     outfile.close()
 
     return None
+
+
+def stringify(item):
+    return "\'" + str(item) + "\'"
 
 
 random.seed(3)
@@ -82,6 +88,7 @@ for _ in range(n_donors):
     name = name_list.pop()
     name, gender = " ".join(name[:2]), name[2].strip()
 
+
     cpr = rand_cpr(gender)
     while cpr in used_cprs:
         cpr = rand_cpr(gender)
@@ -90,9 +97,7 @@ for _ in range(n_donors):
     hos_id = random.choice(hospitals)[0]
     blood_type = random.choice(bloodtypes)
 
-    last_donation = "NULL"
-
-    row = [cpr, name, hos_id, blood_type, last_donation]
+    row = [cpr, name, hos_id, blood_type]
     donor_list.append(row)
 
 ## Populate Patient
@@ -122,8 +127,6 @@ for _ in range(n_patients):
 
     row = [cpr, name, patient_address, blood_type, hos_id]
     patient_list.append(row)
-
-list_to_SQL_list(patient_list, patient_file, "Patient")
 
 ## Populate Staff
 # initialize variables
@@ -174,7 +177,7 @@ for _ in range(n_donations):
     dono_date_str = dono_date.strftime("%d/%m/%Y")
 
     # generate donationID
-    dono_id = "{}_{}_{:03d}".format(hos_id, dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
+    dono_id = "{}_{}_{:03d}".format(hos_id[1:-1], dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
     while dono_id in used_dono_ids:
         dono_id = "{}_{}_{:03d}".format(hos_id, dono_date_str[0:2]+dono_date_str[3:5]+dono_date_str[6:10], random.randint(1,999))
     used_dono_ids.append(dono_id)
@@ -231,6 +234,7 @@ for patient in patient_list:
     while case_number in used_case_numbers:
         case_number = random.randrange(10000000, 99999999)
     used_case_numbers.append(case_number)
+    case_number = str(case_number)
 
     diagnosis = random.choice(diseases)
 
@@ -307,7 +311,7 @@ list_to_SQL_list(hospitals, hospital_file, "Hospital")
 list_to_SQL_list(donor_list, donor_file, "Donor")
 list_to_SQL_list(patient_list, patient_file, "Patient")
 list_to_SQL_list(staff_list, staff_file, "Staff")
-list_to_SQL_list(dono_list, donation_file, "Donations")
+list_to_SQL_list(dono_list, donation_file, "Donation")
 list_to_SQL_list(med_records, med_record_file, "MedicalRecord")
 list_to_SQL_list(assignment, assignment_file, "Assignment")
-list_to_SQL_list(bloodtransfusions, blood_trans_file, "BloodTransfusions")
+list_to_SQL_list(bloodtransfusions, blood_trans_file, "BloodTransfusion")
