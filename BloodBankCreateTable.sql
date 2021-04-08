@@ -108,7 +108,7 @@ CREATE TABLE Assignment
     create function lastDonation(vDonorId VARCHAR(20)) returns bool
     begin
     Declare vDaysSinceLastDonation INT;
-    Declare vfourthOfAYear
+    Declare vfourthOfAYear INT = 92;
     select donationDate from donation as vLastDonation
     where donorId = vDonerId
     select GETDATE() as vToday;
