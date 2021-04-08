@@ -218,14 +218,14 @@ med_records = []
 assignment = []
 bloodtransfusions = []
 
-blood_type_recieve_dict =  {"O-": set(("O-")),
-                            "O+": set(("O-", "O+")),
-                            "B-": set(("O-", "B-")),
-                            "B+": set(("O-", "O+", "B-", "B+")),
-                            "A-": set(("O-","A-")),
-                            "A+": set(("O-", "O+", "A-", "A+")),
-                            "AB-": set(("O-", "B-", "A-", "AB-")),
-                            "AB+": set(("O-", "O+", "B-", "B+", "A-", "A+", "AB-", "AB+"))
+blood_type_recieve_dict =  {"O-": ["O-"],
+                            "O+": ["O-", "O+"],
+                            "B-": ["O-", "B-"],
+                            "B+": ["O-", "O+", "B-", "B+"],
+                            "A-": ["O-","A-"],
+                            "A+": ["O-", "O+", "A-", "A+"],
+                            "AB-": ["O-", "B-", "A-", "AB-"],
+                            "AB+": ["O-", "O+", "B-", "B+", "A-", "A+", "AB-", "AB+"]
                             }
 
 for patient in patient_list:
@@ -306,6 +306,11 @@ for patient in patient_list:
                         break
             break
 
+blood_type_table = []
+for donor, reciever in blood_type_recieve_dict.items():
+    for item in reciever:
+        blood_type_table.append([donor, item])
+
 list_to_SQL_list(hospitals, hospital_file, "Hospital")
 list_to_SQL_list(donor_list, donor_file, "Donor")
 list_to_SQL_list(patient_list, patient_file, "Patient")
@@ -314,3 +319,4 @@ list_to_SQL_list(dono_list, donation_file, "Donation")
 list_to_SQL_list(med_records, med_record_file, "MedicalRecord")
 list_to_SQL_list(assignment, assignment_file, "Assignment")
 list_to_SQL_list(bloodtransfusions, blood_trans_file, "BloodTransfusion")
+list_to_SQL_list(blood_type_table, "compatibility_pop.txt", "Compatibility")
