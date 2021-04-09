@@ -102,43 +102,21 @@ CREATE TABLE Assignment
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE CASCADE
 	);
     
-	delimiter //
-    create function lastDonation(vDonorId VARCHAR(20)) returns bool
+	Delimiter //
+    create function canDonorDonate(vDonorId VARCHAR(20)) returns bool
     begin
     Declare vDaysSinceLastDonation INT;
-    Declare vfourthOfAYear INT = 92;
-    select donationDate from donation as vLastDonation
-    where donorId = vDonerId
-    select GETDATE() as vToday;
-    select datediff(day, vLastDonation, vToday) into vDaysSinceLastDonation;
-    if 
-    vDaysSinceLastDonation < vfourthOfAYear;
-    then 
-    return true;
+    Declare vBloodCooldown INT;
+    Declare vLastDonation INT;
+    SET vBloodCooldown = 56;
+    select MAX(donationDate) into vLastDonation from donation where donorID = vDonorId;
+    select datediff(current_timestamp(), vLastDonation) into vDaysSinceLastDonation;
+    if vDaysSinceLastDonation < vBloodCooldown
+     then return true;
     else
     return false;
-	end
-    delimiter ;
-
-	delimiter //
-    create function isDonationDeleteable(vDonationID varchar(20)) returns bool
-    begin
-    declare vIsInvalid enum('Pass','Fail','Not Processed');
-    declare vToday date;
-	declare vIsUsed bool;
-    declare vDonationAge int;
-    select GETDATE() as vToday;
-    select BeenUsed into IsUsed from donation where donationID = vDonationID;
-    select DonationDate as vDonationDate from donation where donationID = vDonationID;
-    select MedicalCheck into vIsInvalid from donation where donation = vDonationID;
-    SET vDonationAge = datediff(day, vDonationDate, vToday);
-    if 
-    vDonationAge < 60 or vIsUsed = true or vIsInvalied = 'Fail' 
-    then
-    return true;
-    else 
-    return false;
-    end
+    end if;
+    end //
     delimiter ;
     
     INSERT Compatibility VALUES
