@@ -77,7 +77,7 @@ CREATE TABLE Donation
 CREATE TABLE MedicalRecord
 	(CaseNumber		VARCHAR(11), 
 	 PatientID		VARCHAR(11), 
-	 Disease 		VARCHAR(30),
+	 Diognosis 		VARCHAR(30),
 	 Status			VARCHAR(20),
 	 PRIMARY KEY(CaseNumber),
 	 FOREIGN KEY(PatientID) REFERENCES Patient(PatientID) ON DELETE CASCADE
