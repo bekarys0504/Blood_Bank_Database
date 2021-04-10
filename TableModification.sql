@@ -4,11 +4,11 @@ SET SQL_SAFE_UPDATES = 0;
 
 select * from Patient;
 
-Update Patient set HospitalID = 
-case
-when HospitalID = 'OUH' Then 'RIG'
-else HospitalID
-end;
+UPDATE Patient SET HospitalID = 
+CASE
+WHEN HospitalID = 'OUH' THEN 'RIG'
+ELSE HospitalID
+END;
 
 select * from Patient;
 
