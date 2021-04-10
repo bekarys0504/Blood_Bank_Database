@@ -76,7 +76,7 @@ CREATE TABLE Donation
 
 CREATE TABLE MedicalRecord
 	(CaseNumber		VARCHAR(11), 
-	 PatientID		VARCHAR(11), 
+	 PatientID		VARCHAR(11) NOT NULL, 
 	 Diognosis 		VARCHAR(30),
 	 Status			VARCHAR(20),
 	 PRIMARY KEY(CaseNumber),
