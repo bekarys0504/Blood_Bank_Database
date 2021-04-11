@@ -86,7 +86,7 @@ CREATE TABLE MedicalRecord
 CREATE TABLE BloodTransfusion
 	(DonationID		VARCHAR(20), 
      CaseNumber		VARCHAR(11), 
-	 TranfusionDate	DATE NOT NULL,
+	 TransfusionDate	DATE NOT NULL,
 	 Amount  		DECIMAL(4,1) NOT NULL, 
 	 PRIMARY KEY(DonationID, CaseNumber),
      FOREIGN KEY(DonationID) REFERENCES Donation(DonationID) ON DELETE no action,
