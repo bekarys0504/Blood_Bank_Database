@@ -4,14 +4,14 @@ CREATE DATABASE BloodBank;
 
 use BloodBank;
 
-DROP TABLE IF EXISTS Donor;
-DROP TABLE IF EXISTS Donation;
-DROP TABLE IF EXISTS Hospital;
 DROP TABLE IF EXISTS BloodTranfusion;
-DROP TABLE IF EXISTS StaffMember;
 DROP TABLE IF EXISTS Assignment;
 DROP TABLE IF EXISTS MedicalRecord;
+DROP TABLE IF EXISTS StaffMember;
 DROP TABLE IF EXISTS Patient;
+DROP TABLE IF EXISTS Donation;
+DROP TABLE IF EXISTS Donor;
+DROP TABLE IF EXISTS Hospital;
 DROP TABLE IF EXISTS Compatibility;
 
 # Table creation! Create Tables with Foreign Keys after the referenced tables are created!
