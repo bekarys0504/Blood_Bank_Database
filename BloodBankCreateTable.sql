@@ -111,7 +111,7 @@ CREATE TABLE Assignment
     SET vBloodCooldown = 56;
     select MAX(donationDate) into vLastDonation from donation where donorID = vDonorId;
     select datediff(current_timestamp(), vLastDonation) into vDaysSinceLastDonation;
-    if vDaysSinceLastDonation < vBloodCooldown
+    if vDaysSinceLastDonation < vBloodCooldown or vDaysSinceLastDonation = null
      then return true;
     else
     return false;
