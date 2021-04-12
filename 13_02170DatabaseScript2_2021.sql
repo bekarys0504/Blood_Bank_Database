@@ -14,21 +14,21 @@ select * from BloodTransfusion;
 
 SET SQL_SAFE_UPDATES = 0;
 
-UPDATE Patient SET HospitalID = 
+UPDATE Patient SET HospitalID =
 CASE
 WHEN HospitalID = 'OUH' THEN 'RIG'
 ELSE HospitalID
 END;
 
-delete from Donation where HospitalID = 'AUH' and MedicalCheck = 'Fail';
+DELETE FROM Donation WHERE HospitalID = 'AUH' AND MedicalCheck = 'Fail';
 
 /*FUNCTIONS*/
 
 DROP FUNCTION IF EXISTS canDonorDonate;
 
 Delimiter //
-    CREATE FUNCTION canDonorDonate(vDonorId VARCHAR(20)) RETURNS BOOL
-    BEGIN
+CREATE FUNCTION canDonorDonate(vDonorId VARCHAR(20)) RETURNS BOOL
+BEGIN
     DECLARE vDaysSinceLastDonation INT;
     DECLARE vBloodCooldown INT;
     DECLARE vLastDonation INT;
@@ -36,24 +36,24 @@ Delimiter //
     SELECT MAX(donationDate) INTO vLastDonation FROM donation WHERE donorID = vDonorId;
     SELECT datediff(current_timestamp(), vLastDonation) INTO vDaysSinceLastDonation;
     IF vDaysSinceLastDonation > vBloodCooldown OR isnull(vLastDonation)
-     THEN RETURN TRUE;
+    THEN RETURN TRUE;
     ELSE
     RETURN FALSE;
     END IF;
     END //
-    delimiter ;
-    
-    Select canDonorDonate("080571-9917");
+DELIMITER ;
+
+    SELECT canDonorDonate("080571-9917");
 
 /*TRIGGERS*/
 
-drop trigger if exists DonationInsertCheckDonor;
+DROP TRIGGER IF EXISTS DonationInsertCheckDonor;
 
 DELIMITER //
 CREATE TRIGGER DonationInsertCheckDonor
 BEFORE INSERT ON Donation FOR EACH ROW
 BEGIN
-	IF NOT EXISTS (SELECT 1 FROM Donor where NEW.DonorID = Donor.DonorID)
+	IF NOT EXISTS (SELECT 1 FROM Donor WHERE NEW.DonorID = Donor.DonorID)
 	THEN SIGNAL SQLSTATE 'HY000'
 			SET MYSQL_ERRNO = 1525,
             MESSAGE_TEXT = "Donor does not exist in the database. Ensure that the DonorID is valid and that the donor is registered in the database.";
@@ -65,33 +65,28 @@ DELIMITER ;
 INSERT Donation VALUES
 ('OUH_08012021_794','22d91-9520','OUH','200176-7877',500,'2021-01-08','Pass',True);
 
-show warnings;
-select * from donation;
+SHOW WARNINGS;
+SELECT * FROM Donation;
 
 -- Insert with correct donorID
 INSERT Donation VALUES
 ('AUH_12022d021_439','300955-3610','AUH','301263-4269',500,'2021-02-12','Pass',True);
 
-select * from donation;
+SELECT * FROM Donation;
 
 /*EVENTS*/
 
-set global event_scheduler = 0;
+SET GLOBAL EVENT_SCHEDULER = 0;
 
-drop event if exists donationcleanup;
+DROP EVENT IF EXISTS DonationCleanup;
 
 CREATE EVENT DonationCleanup
 ON SCHEDULE EVERY 1 day
-do delete from Donation where ((DATEDIFF(CURDATE(), DonationDate) > 42 or MedicalCheck='Fail') AND BeenUsed=False);
+DO DELETE FROM Donation WHERE ((DATEDIFF(CURDATE(), DonationDate) > 42 OR MedicalCheck='Fail') AND BeenUsed=False);
 
-set global event_scheduler = 1;
+SET GLOBAL EVENT_SCHEDULER = 1;
 
-
-select * from donation;
-
-set global event_scheduler = 1;
-
-select * from donation order by DonationDate;
+SELECT * FROM Donation ORDER BY DonationDate;
 
 /*PROCEDURES*/
 
@@ -100,7 +95,7 @@ DROP PROCEDURE IF EXISTS CheckValidity;
 DELIMITER //
 CREATE PROCEDURE CheckValidity
 (IN vDonationID VARCHAR(20), OUT vValid BOOLEAN)
-BEGIN 
+BEGIN
     IF EXISTS (SELECT * FROM Donation WHERE DonationID = vDonationID AND DATEDIFF(CURDATE(), DonationDate) < 42 AND MedicalCheck='Pass' AND BeenUsed=False) THEN
         SET vValid = TRUE;
     ELSE
