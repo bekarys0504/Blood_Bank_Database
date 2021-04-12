@@ -88,7 +88,7 @@ CREATE TABLE BloodTransfusion
      CaseNumber		VARCHAR(11), 
 	 TransfusionDate	DATE NOT NULL,
 	 Amount  		DECIMAL(4,1) NOT NULL, 
-	 PRIMARY KEY(DonationID),
+	 PRIMARY KEY(DonationID, CaseNumber),
      FOREIGN KEY(DonationID) REFERENCES Donation(DonationID) ON DELETE no action,
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE no action
 	);
@@ -101,23 +101,6 @@ CREATE TABLE Assignment
      FOREIGN KEY(StaffID) REFERENCES StaffMember(StaffID) ON DELETE CASCADE,
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE CASCADE
 	);
-    
-Delimiter //
-    CREATE FUNCTION canDonorDonate(vDonorId VARCHAR(20)) RETURNS BOOL
-    BEGIN
-    DECLARE vDaysSinceLastDonation INT;
-    DECLARE vBloodCooldown INT;
-    DECLARE vLastDonation INT;
-    SET vBloodCooldown = 56;
-    SELECT MAX(donationDate) INTO vLastDonation FROM donation WHERE donorID = vDonorId;
-    SELECT datediff(current_timestamp(), vLastDonation) INTO vDaysSinceLastDonation;
-    IF vDaysSinceLastDonation > vBloodCooldown OR isnull(vLastDonation)
-     THEN RETURN TRUE;
-    ELSE
-    RETURN FALSE;
-    END IF;
-    END //
-    delimiter ;
     
     INSERT Compatibility VALUES
 ('O-','O-'),
