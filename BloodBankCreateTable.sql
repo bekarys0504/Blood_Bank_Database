@@ -102,21 +102,21 @@ CREATE TABLE Assignment
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE CASCADE
 	);
     
-	Delimiter //
-    create function canDonorDonate(vDonorId VARCHAR(20)) returns bool
-    begin
-    Declare vDaysSinceLastDonation INT;
-    Declare vBloodCooldown INT;
-    Declare vLastDonation INT;
+Delimiter //
+    CREATE FUNCTION canDonorDonate(vDonorId VARCHAR(20)) RETURNS BOOL
+    BEGIN
+    DECLARE vDaysSinceLastDonation INT;
+    DECLARE vBloodCooldown INT;
+    DECLARE vLastDonation INT;
     SET vBloodCooldown = 56;
-    select MAX(donationDate) into vLastDonation from donation where donorID = vDonorId;
-    select datediff(current_timestamp(), vLastDonation) into vDaysSinceLastDonation;
-    if vDaysSinceLastDonation < vBloodCooldown or vDaysSinceLastDonation = null
-     then return true;
-    else
-    return false;
-    end if;
-    end //
+    SELECT MAX(donationDate) INTO vLastDonation FROM donation WHERE donorID = vDonorId;
+    SELECT datediff(current_timestamp(), vLastDonation) INTO vDaysSinceLastDonation;
+    IF vDaysSinceLastDonation > vBloodCooldown OR isnull(vLastDonation)
+     THEN RETURN TRUE;
+    ELSE
+    RETURN FALSE;
+    END IF;
+    END //
     delimiter ;
     
     INSERT Compatibility VALUES
@@ -332,7 +332,6 @@ INSERT BloodTransfusion VALUES
 ('AUH_17022021_643','54676066','2021-03-11',500),
 ('AUH_10022021_161','14038269','2021-03-17',500),
 ('AUH_24022021_230','88256544','2021-03-31',500);
-
 
 
 
