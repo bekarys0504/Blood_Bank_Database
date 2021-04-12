@@ -31,10 +31,10 @@ CREATE TABLE Compatibility
 CREATE TABLE Donor
 	(DonorID		VARCHAR(11),
 	 DonorName		VARCHAR(20) NOT NULL,
-	 HospitalID		VARCHAR(10),
+	 HospitalID		VARCHAR(10) NOT NULL,
      BloodType		ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+') NOT NULL,
 	 PRIMARY KEY(DonorID),
-     FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE SET NULL,
+     FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE NO ACTION,
      FOREIGN KEY(BloodType) REFERENCES Compatibility(DonorBloodType) ON DELETE CASCADE
 	);
 
@@ -54,7 +54,7 @@ CREATE TABLE StaffMember
      StaffName		VARCHAR(20) NOT NULL,
 	 Position		VARCHAR(20) NOT NULL,
 	 HiringDate		DATE NOT NULL,
-	 HospitalID		VARCHAR(10),
+	 HospitalID		VARCHAR(10) NOT NULL,
 	 PRIMARY KEY(StaffID),
 	 FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE CASCADE
 	);
@@ -62,15 +62,15 @@ CREATE TABLE StaffMember
 CREATE TABLE Donation
 	(DonationID		VARCHAR(20), 
      DonorID		VARCHAR(11) NOT NULL,
-	 HospitalID		VARCHAR(10),
+	 HospitalID		VARCHAR(10) NOT NULL,
      StaffID		VARCHAR(11) NOT NULL,
 	 Amount  		DECIMAL(4,1) NOT NULL, 
 	 DonationDate	DATE NOT NULL,
      MedicalCheck   ENUM('Pass','Fail','Not Processed') NOT NULL,
-     BeenUsed		BOOLEAN,
+     BeenUsed		BOOLEAN NOT NULL,
 	 PRIMARY KEY(DonationID),
      FOREIGN KEY(DonorID) REFERENCES Donor(DonorID) ON DELETE NO ACTION,
-     FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE SET NULL,
+     FOREIGN KEY(HospitalID) REFERENCES Hospital(HospitalID) ON DELETE NO ACTION,
      FOREIGN KEY(StaffID) REFERENCES StaffMember(StaffID) ON DELETE NO ACTION
 	);
 
@@ -85,10 +85,10 @@ CREATE TABLE MedicalRecord
 
 CREATE TABLE BloodTransfusion
 	(DonationID		VARCHAR(20), 
-     CaseNumber		VARCHAR(11), 
+     CaseNumber		VARCHAR(11) NOT NULL, 
 	 TransfusionDate	DATE NOT NULL,
 	 Amount  		DECIMAL(4,1) NOT NULL, 
-	 PRIMARY KEY(DonationID, CaseNumber),
+	 PRIMARY KEY(DonationID),
      FOREIGN KEY(DonationID) REFERENCES Donation(DonationID) ON DELETE no action,
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE no action
 	);
