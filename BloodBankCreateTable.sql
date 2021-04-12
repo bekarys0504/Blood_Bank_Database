@@ -23,8 +23,8 @@ CREATE TABLE Hospital
 	);
 
 CREATE TABLE Compatibility
-	(DonorBloodType		ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
-	 ReceiverBloodType	ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
+	(ReceiverBloodType		ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
+	 DonorBloodType	ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
 	 PRIMARY KEY(DonorBloodType, ReceiverBloodType)
 	);
     
