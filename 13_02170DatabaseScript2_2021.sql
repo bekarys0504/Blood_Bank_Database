@@ -12,6 +12,16 @@ SELECT HospitalID, SUM(AMOUNT) FROM Donation GROUP BY HospitalID;
 
 select * from BloodTransfusion;
 
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE Patient SET HospitalID = 
+CASE
+WHEN HospitalID = 'OUH' THEN 'RIG'
+ELSE HospitalID
+END;
+
+delete from Donation where HospitalID = 'AUH' and MedicalCheck = 'Fail';
+
 DROP FUNCTION IF EXISTS canDonorDonate;
 
 Delimiter //
@@ -70,18 +80,3 @@ BEGIN
 	END IF;
 END//
 DELIMITER ;
-
-SET SQL_SAFE_UPDATES = 0;
-
-UPDATE Patient SET HospitalID = 
-CASE
-WHEN HospitalID = 'OUH' THEN 'RIG'
-ELSE HospitalID
-END;
-
-delete from Donation where HospitalID = 'AUH' and MedicalCheck = 'Fail';
-
-drop view if exists BloodAvailable;
-
-create view BloodAvailable as select BloodType, sum(amount) from Donation natural join Donor
-where DATEDIFF(CURDATE(), DonationDate) < 42 AND MedicalCheck='Pass' AND BeenUsed=False group by BloodType;

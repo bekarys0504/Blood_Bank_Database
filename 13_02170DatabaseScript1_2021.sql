@@ -102,6 +102,9 @@ CREATE TABLE Assignment
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE CASCADE
 	);
     
+    create view BloodAvailable as select BloodType, sum(amount) from Donation natural join Donor
+where DATEDIFF(CURDATE(), DonationDate) < 42 AND MedicalCheck='Pass' AND BeenUsed=False group by BloodType;
+    
     INSERT Compatibility VALUES
 ('O-','O-'),
 ('O+','O-'),
@@ -316,6 +319,7 @@ INSERT BloodTransfusion VALUES
 ('AUH_10022021_161','14038269','2021-03-17',500),
 ('AUH_24022021_230','88256544','2021-03-31',500);
 
+drop view if exists BloodAvailable;
 
 
 
