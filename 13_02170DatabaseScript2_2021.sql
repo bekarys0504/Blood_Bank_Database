@@ -22,6 +22,8 @@ END;
 
 delete from Donation where HospitalID = 'AUH' and MedicalCheck = 'Fail';
 
+/*FUNCTIONS*/
+
 DROP FUNCTION IF EXISTS canDonorDonate;
 
 Delimiter //
@@ -40,6 +42,10 @@ Delimiter //
     END IF;
     END //
     delimiter ;
+    
+    Select canDonorDonate("080571-9917");
+
+/*TRIGGERS*/
 
 DROP TRIGGER IF EXISTS DonationInsertCheckDonor;
 
@@ -55,6 +61,21 @@ BEGIN
 END //
 DELIMITER ;
 
+-- Insert with wrong donorID
+INSERT Donation VALUES
+('OUH_08012021_794','22d91-9520','OUH','200176-7877',500,'2021-01-08','Pass',True);
+
+show warnings;
+select * from donation;
+
+-- Insert with correct donorID
+INSERT Donation VALUES
+('AUH_12022d021_439','300955-3610','AUH','301263-4269',500,'2021-02-12','Pass',True);
+
+select * from donation;
+
+/*EVENTS*/
+
 set global event_scheduler = 0;
 
 drop event if exists donationcleanup;
@@ -65,6 +86,14 @@ do delete from Donation where ((DATEDIFF(CURDATE(), DonationDate) > 42 or Medica
 
 set global event_scheduler = 1;
 
+
+select * from donation;
+
+set global event_scheduler = 1;
+
+select * from donation order by DonationDate;
+
+/*PROCEDURES*/
 
 DROP PROCEDURE IF EXISTS CheckValidity;
 
@@ -79,3 +108,14 @@ BEGIN
 	END IF;
 END//
 DELIMITER ;
+
+
+CALL CheckValidity('OUH_19022021_046', @Valid);
+CALL CheckValidity('AUH_14012021_752', @Valid);
+
+
+CALL CheckValidity('AUH_23032021_821', @Valid);
+
+Select @Valid;
+
+SELECT * FROM Donation WHERE DonationID = 'AUH_30032021_127' AND DATEDIFF(CURDATE(), DonationDate) < 42 AND MedicalCheck='Pass' AND BeenUsed=False
