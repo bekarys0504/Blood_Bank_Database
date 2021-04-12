@@ -14,13 +14,16 @@ BEGIN
 END //
 DELIMITER ;
 
--- Insert wrong donorID
+-- Insert with wrong donorID
 INSERT Donation VALUES
 ('OUH_08012021_794','22d91-9520','OUH','200176-7877',500,'2021-01-08','Pass',True);
 
+show warnings;
+select * from donation;
+
+-- Insert with correct donorID
 INSERT Donation VALUES
 ('AUH_12022d021_439','300955-3610','AUH','301263-4269',500,'2021-02-12','Pass',True);
 
 select * from donation;
 
-show warnings;
