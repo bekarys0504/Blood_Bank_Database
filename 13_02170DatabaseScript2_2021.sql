@@ -40,11 +40,10 @@ Delimiter //
     END IF;
     END //
     delimiter ;
-    
+
+DROP TRIGGER IF EXISTS DonationInsertCheckDonor;
+
 DELIMITER //
-
-DROP TRIGGER IF EXISTS DonationCheckDonor;
-
 CREATE TRIGGER DonationInsertCheckDonor
 BEFORE INSERT ON Donation FOR EACH ROW
 BEGIN
