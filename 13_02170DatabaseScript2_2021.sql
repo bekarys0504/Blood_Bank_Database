@@ -47,7 +47,7 @@ Delimiter //
 
 /*TRIGGERS*/
 
-DROP TRIGGER IF EXISTS DonationInsertCheckDonor;
+drop trigger if exists DonationInsertCheckDonor;
 
 DELIMITER //
 CREATE TRIGGER DonationInsertCheckDonor
@@ -56,7 +56,7 @@ BEGIN
 	IF NOT EXISTS (SELECT 1 FROM Donor where NEW.DonorID = Donor.DonorID)
 	THEN SIGNAL SQLSTATE 'HY000'
 			SET MYSQL_ERRNO = 1525,
-            MESSAGE_TEXT = "Donor does not exist in database.";
+            MESSAGE_TEXT = "Donor does not exist in the database. Ensure that the DonorID is valid and that the donor is registered in the database.";
 	END IF;
 END //
 DELIMITER ;
