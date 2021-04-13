@@ -17,7 +17,7 @@ DROP TABLE IF EXISTS Compatibility;
 # Table creation! Create Tables with Foreign Keys after the referenced tables are created!
 CREATE TABLE Hospital
 	(HospitalID			VARCHAR(10),
-	 HospitalName		VARCHAR(50) NOT NULL, 
+	 HospitalName		VARCHAR(50) NOT NULL,
 	 HospitalAddress	VARCHAR(50) NOT NULL,
 	 PRIMARY KEY(HospitalID)
 	);
@@ -27,7 +27,7 @@ CREATE TABLE Compatibility
 	 DonorBloodType	ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+'),
 	 PRIMARY KEY(DonorBloodType, ReceiverBloodType)
 	);
-    
+
 CREATE TABLE Donor
 	(DonorID		VARCHAR(11),
 	 DonorName		VARCHAR(20) NOT NULL,
@@ -39,9 +39,9 @@ CREATE TABLE Donor
 	);
 
 CREATE TABLE Patient
-	(PatientID				VARCHAR(11), 
+	(PatientID				VARCHAR(11),
 	 PatientName			VARCHAR(20) NOT NULL,
-	 PatientAdress			VARCHAR(50), 
+	 PatientAdress			VARCHAR(50),
 	 BloodType				ENUM('O-','O+','B-','B+','A-','A+','AB-','AB+') NOT NULL,
 	 HospitalID				VARCHAR(10),
 	 PRIMARY KEY(PatientID),
@@ -50,7 +50,7 @@ CREATE TABLE Patient
 	);
 
 CREATE TABLE StaffMember
-	(StaffID		VARCHAR(11), 
+	(StaffID		VARCHAR(11),
      StaffName		VARCHAR(20) NOT NULL,
 	 Position		VARCHAR(20) NOT NULL,
 	 HiringDate		DATE NOT NULL,
@@ -60,11 +60,11 @@ CREATE TABLE StaffMember
 	);
 
 CREATE TABLE Donation
-	(DonationID		VARCHAR(20), 
+	(DonationID		VARCHAR(20),
      DonorID		VARCHAR(11) NOT NULL,
 	 HospitalID		VARCHAR(10) NOT NULL,
      StaffID		VARCHAR(11) NOT NULL,
-	 Amount  		DECIMAL(4,1) NOT NULL, 
+	 Amount  		DECIMAL(4,1) NOT NULL,
 	 DonationDate	DATE NOT NULL,
      MedicalCheck   ENUM('Pass','Fail','Not Processed') NOT NULL,
      BeenUsed		BOOLEAN NOT NULL,
@@ -75,8 +75,8 @@ CREATE TABLE Donation
 	);
 
 CREATE TABLE MedicalRecord
-	(CaseNumber		VARCHAR(11), 
-	 PatientID		VARCHAR(11) NOT NULL, 
+	(CaseNumber		VARCHAR(11),
+	 PatientID		VARCHAR(11) NOT NULL,
 	 Diognosis 		VARCHAR(30),
 	 Status			VARCHAR(20),
 	 PRIMARY KEY(CaseNumber),
@@ -84,29 +84,30 @@ CREATE TABLE MedicalRecord
 	);
 
 CREATE TABLE BloodTransfusion
-	(DonationID		VARCHAR(20), 
-     CaseNumber		VARCHAR(11) NOT NULL, 
+	(DonationID		VARCHAR(20),
+     CaseNumber		VARCHAR(11) NOT NULL,
 	 TransfusionDate	DATE NOT NULL,
-	 Amount  		DECIMAL(4,1) NOT NULL, 
+	 Amount  		DECIMAL(4,1) NOT NULL,
 	 PRIMARY KEY(DonationID),
      FOREIGN KEY(DonationID) REFERENCES Donation(DonationID) ON DELETE no action,
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE no action
 	);
 
 CREATE TABLE Assignment
-	(StaffID		VARCHAR(11), 
+	(StaffID		VARCHAR(11),
      CaseNumber		VARCHAR(11),
 	 AssignmentDate		DATE,
 	 PRIMARY KEY(StaffID, CaseNumber),
      FOREIGN KEY(StaffID) REFERENCES StaffMember(StaffID) ON DELETE CASCADE,
      FOREIGN KEY(CaseNumber) REFERENCES MedicalRecord(CaseNumber) ON DELETE CASCADE
 	);
-    
-    drop view if exists BloodAvailable;
-    create view BloodAvailable as select BloodType, sum(amount) from Donation natural join Donor
+
+drop view if exists BloodAvailable;
+
+create view BloodAvailable as select BloodType, sum(amount) from Donation natural join Donor
 where DATEDIFF(CURDATE(), DonationDate) < 42 AND MedicalCheck='Pass' AND BeenUsed=False group by BloodType;
-    
-    INSERT Compatibility VALUES
+
+  INSERT Compatibility VALUES
 ('O-','O-'),
 ('O+','O-'),
 ('O+','O+'),
@@ -319,10 +320,3 @@ INSERT BloodTransfusion VALUES
 ('AUH_17022021_643','54676066','2021-03-11',500),
 ('AUH_10022021_161','14038269','2021-03-17',500),
 ('AUH_24022021_230','88256544','2021-03-31',500);
-
-
-
-
-
-
-
